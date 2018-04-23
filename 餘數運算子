@@ -1,0 +1,11 @@
+/*餘數運算子的練習 */
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{   
+   printf("-7%%3=%d\n",-7%3);
+
+   system("pause");
+   return 0;
+}
+

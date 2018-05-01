@@ -1,0 +1,70 @@
+//4060E023 翁蝶 
+#include <iostream>
+using namespace std;
+
+class Ball
+{
+public:
+  // The radius of this Ball
+  double radius;
+
+  // Construct a default Ball object
+  Ball()
+  {
+    radius = 1;
+  }
+
+  // Construct a Ball object
+  Ball(double newRadius)
+  {
+    radius = newRadius;
+  }
+
+  // Return the area of this Ball
+  double getArea()
+  {
+    return radius *radius * radius * 3.14159*4/3;
+  }
+};  // Must place a semicolon here
+
+int main()
+{
+  Ball Ball1(1);
+  Ball Ball2(5);
+  Ball Ball3(10);
+  Ball Ball4(15);
+  Ball Ball5(20);
+  Ball Ball6(25);
+  Ball Ball7(30);
+  Ball Ball8(35);
+  Ball Ball9(40);
+  Ball Ball10(45);
+
+  cout << "球半徑"
+    << Ball1.radius << "球面積為 " << Ball1.getArea() << endl;
+  cout << "球半徑"
+    << Ball2.radius << "球面積為 " << Ball2.getArea() << endl;
+  cout << "球半徑"
+    << Ball3.radius << "球面積為 " << Ball3.getArea() << endl;
+    cout << "球半徑"
+    << Ball4.radius << "球面積為 " << Ball4.getArea() << endl;
+  cout << "球半徑"
+    << Ball5.radius << "球面積為 " << Ball5.getArea() << endl;
+  cout << "球半徑"
+    << Ball6.radius << "球面積為 " << Ball6.getArea() << endl;
+    cout << "球半徑"
+    << Ball7.radius << "球面積為 " << Ball7.getArea() << endl;
+  cout << "球半徑"
+    << Ball8.radius << "球面積為 " << Ball8.getArea() << endl;
+  cout << "球半徑"
+    << Ball9.radius << "球面積為 " << Ball9.getArea() << endl;
+  cout << "球半徑"
+    << Ball10.radius << "球面積為 " << Ball10.getArea() << endl;
+
+  // Modify Ball radius
+  //Ball2.radius = 100;
+  //cout << "球半徑"
+    //<< Ball2.radius << "球面積為 " << Ball2.getArea() << endl;
+
+  return 0;
+}

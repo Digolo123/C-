@@ -18,3 +18,4 @@ string s4("Welcome");
 s4.append(14, 'F'); 
 cout << s4 << endl; 
 }
+/C-/20180501/字串練習

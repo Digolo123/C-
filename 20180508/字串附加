@@ -21,5 +21,10 @@ int main()
 
   return 0;
 }
-![執行畫面](pic/1.png);
+```
+
+![執行畫面](pic/1.png)
+
+
+```
 ![result](pic/1.png)

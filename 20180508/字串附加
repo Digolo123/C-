@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 
@@ -23,4 +22,4 @@ int main()
   return 0;
 }
 
-![執行畫面](pic/字串附加.png)
+![result](pic/字串附加.png)
